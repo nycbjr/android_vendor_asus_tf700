@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf700t/proprietary/lib/libnvaviparserhal.so:system/lib/libnvaviparserhal.so \
     vendor/asus/tf700t/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
     vendor/asus/tf700t/proprietary/lib/libnvcap.so:system/lib/libnvcap.so \
+    vendor/asus/tf700t/proprietary/lib/libnvcapclk.so:system/lib/libnvcapclk.so \
     vendor/asus/tf700t/proprietary/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
     vendor/asus/tf700t/proprietary/lib/libnvcpud_client.so:system/lib/libnvcpud_client.so \
     vendor/asus/tf700t/proprietary/lib/libnvcpud.so:system/lib/libnvcpud.so \
