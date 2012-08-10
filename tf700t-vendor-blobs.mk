@@ -79,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf700t/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
     vendor/asus/tf700t/proprietary/lib/libnvcap.so:system/lib/libnvcap.so \
     vendor/asus/tf700t/proprietary/lib/libnvcapclk.so:system/lib/libnvcapclk.so \
+    vendor/asus/tf700t/proprietary/lib/libnvcap_video.so:system/lib/libnvcap_video.so \
     vendor/asus/tf700t/proprietary/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
     vendor/asus/tf700t/proprietary/lib/libnvcpud_client.so:system/lib/libnvcpud_client.so \
     vendor/asus/tf700t/proprietary/lib/libnvcpud.so:system/lib/libnvcpud.so \
@@ -107,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf700t/proprietary/lib/libnvmm_utils.so:system/lib/libnvmm_utils.so \
     vendor/asus/tf700t/proprietary/lib/libnvmm_vc1_video.so:system/lib/libnvmm_vc1_video.so \
     vendor/asus/tf700t/proprietary/lib/libnvmm_video.so:system/lib/libnvmm_video.so \
-    vendor/asus/tf700t/proprietary/lib/libnvmm_vp6_video.so:system/lib/libnvmm_vp6_video.so \
     vendor/asus/tf700t/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
     vendor/asus/tf700t/proprietary/lib/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \
     vendor/asus/tf700t/proprietary/lib/libnvodm_hdmi.so:system/lib/libnvodm_hdmi.so \
