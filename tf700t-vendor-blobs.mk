@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf700t/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/asus/tf700t/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/asus/tf700t/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
+    vendor/asus/tf700t/proprietary/lib/libeglstreamtexture.so:system/lib/libeglstreamtexture.so \
     vendor/asus/tf700t/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/asus/tf700t/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/asus/tf700t/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
