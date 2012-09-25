@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/asus/tf700t/proprietary/bin/sensors-config:system/bin/sensors-config \
     vendor/asus/tf700t/proprietary/bin/glgps:system/bin/glgps \
+    vendor/asus/tf700t/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android \
     vendor/asus/tf700t/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/asus/tf700t/proprietary/etc/asound.conf:system/etc/asound.conf \
     vendor/asus/tf700t/proprietary/etc/dbus.conf:system/etc/dbus.conf \
