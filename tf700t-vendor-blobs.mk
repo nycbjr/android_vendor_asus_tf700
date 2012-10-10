@@ -165,7 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf700t/proprietary/lib/libsensors.mpl3050.so:system/lib/libsensors.mpl3050.so \
     vendor/asus/tf700t/proprietary/lib/libsensors.mpl6050.so:system/lib/libsensors.mpl6050.so \
     vendor/asus/tf700t/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-    vendor/asus/tf700t/proprietary/lib/libssh.so:system/lib/libssh.so \
     vendor/asus/tf700t/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/asus/tf700t/proprietary/lib/mpu6050/libmllite.so:system/lib/mpu6050/libmllite.so \
     vendor/asus/tf700t/proprietary/lib/mpu6050/libmlplatform.so:system/lib/mpu6050/libmlplatform.so \
