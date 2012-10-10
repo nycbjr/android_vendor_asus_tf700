@@ -155,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf700t/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
     vendor/asus/tf700t/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/asus/tf700t/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
-    vendor/asus/tf700t/proprietary/lib/libpng.so:system/lib/libpng.so \
     vendor/asus/tf700t/proprietary/lib/libsensors.al3010.so:system/lib/libsensors.al3010.so \
     vendor/asus/tf700t/proprietary/lib/libsensors.base.so:system/lib/libsensors.base.so \
     vendor/asus/tf700t/proprietary/lib/libsensors.base6050.so:system/lib/libsensors.base6050.so \
