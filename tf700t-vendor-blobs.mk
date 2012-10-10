@@ -93,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf700t/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
     vendor/asus/tf700t/proprietary/lib/libmplmpu3050.so:system/lib/libmplmpu3050.so \
     vendor/asus/tf700t/proprietary/lib/libmplmpu6050.so:system/lib/libmplmpu6050.so \
-    vendor/asus/tf700t/proprietary/lib/libncurses.so:system/lib/libncurses.so \
     vendor/asus/tf700t/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
     vendor/asus/tf700t/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
     vendor/asus/tf700t/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
