@@ -30,9 +30,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf700t/proprietary/bin/sensors-config:system/bin/sensors-config \
     vendor/asus/tf700t/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/asus/tf700t/proprietary/bin/touch_fw_update:system/bin/touch_fw_update \
-    vendor/asus/tf700t/proprietary/bin/wifimacwriter:system/bin/wifimacwriter \
     vendor/asus/tf700t/proprietary/etc/asound.conf:system/etc/asound.conf \
     vendor/asus/tf700t/proprietary/etc/BtService.sh:system/etc/BtService.sh \
+    vendor/asus/tf700t/proprietary/etc/dbus.conf:system/etc/dbus.conf \
     vendor/asus/tf700t/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/asus/tf700t/proprietary/etc/model_frontal.xml:system/etc/model_frontal.xml \
     vendor/asus/tf700t/proprietary/etc/nvaudio_conf_RT5631.xml:system/etc/nvaudio_conf_RT5631.xml \
@@ -104,14 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf700t/proprietary/lib/hw/sensors6050.cardhu.so:system/lib/hw/sensors6050.cardhu.so \
     vendor/asus/tf700t/proprietary/lib/hw/sensors.cardhu.so:system/lib/hw/sensors.cardhu.so \
     vendor/asus/tf700t/proprietary/lib/hw/sensors_generic.cardhu.so:system/lib/hw/sensors_generic.cardhu.so \
-    vendor/asus/tf700t/proprietary/lib/mpu3050/libmllite.so:system/lib/mpu3050/libmllite.so \
-    vendor/asus/tf700t/proprietary/lib/mpu3050/libmlplatform.so:system/lib/mpu3050/libmlplatform.so \
-    vendor/asus/tf700t/proprietary/lib/mpu3050/libmplmpu.so:system/lib/mpu3050/libmplmpu.so \
-    vendor/asus/tf700t/proprietary/lib/mpu3050/libsensors.mpl3050.so:system/lib/mpu3050/libsensors.mpl3050.so \
-    vendor/asus/tf700t/proprietary/lib/mpu6050/libmllite.so:system/lib/mpu6050/libmllite.so \
-    vendor/asus/tf700t/proprietary/lib/mpu6050/libmlplatform.so:system/lib/mpu6050/libmlplatform.so \
-    vendor/asus/tf700t/proprietary/lib/mpu6050/libmplmpu.so:system/lib/mpu6050/libmplmpu.so \
-    vendor/asus/tf700t/proprietary/lib/mpu6050/libsensors.mpl6050.so:system/lib/mpu6050/libsensors.mpl6050.so \
     vendor/asus/tf700t/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/asus/tf700t/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/asus/tf700t/proprietary/lib/libami.so:system/lib/libami.so \
@@ -193,7 +185,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf700t/proprietary/lib/libsensors.isl29018.so:system/lib/libsensors.isl29018.so \
     vendor/asus/tf700t/proprietary/lib/libsensors.isl29028.so:system/lib/libsensors.isl29028.so \
     vendor/asus/tf700t/proprietary/lib/libsensors.ltr558als.so:system/lib/libsensors.ltr558als.so \
-    vendor/asus/tf700t/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
     vendor/asus/tf700t/proprietary/lib/libtjpg.so:system/lib/libtjpg.so \
     vendor/asus/tf700t/proprietary/lib/texfat.ko:system/lib/texfat.ko \
     vendor/asus/tf700t/proprietary/lib/tntfs.ko:system/lib/tntfs.ko \
@@ -225,4 +216,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf700t/proprietary/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin \
     vendor/asus/tf700t/proprietary/vendor/firmware/bcm4330/fw_bcmdhd_b1.bin:system/vendor/firmware/bcm4330/fw_bcmdhd_b1.bin \
     vendor/asus/tf700t/proprietary/vendor/firmware/bcm4330/fw_bcmdhd.bin:system/vendor/firmware/bcm4330/fw_bcmdhd.bin \
-    vendor/asus/tf700t/proprietary/vendor/firmware/bcm4330/fw_bcmdhd_p2p.bin:system/vendor/firmware/bcm4330/fw_bcmdhd_p2p.bin
+    vendor/asus/tf700t/proprietary/vendor/firmware/bcm4330/fw_bcmdhd_p2p.bin:system/vendor/firmware/bcm4330/fw_bcmdhd_p2p.bin \
+    vendor/asus/tf700t/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/asus/tf700t/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/asus/tf700t/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/asus/tf700t/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so
